@@ -61,6 +61,18 @@ h6 {
     text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
 }
 
+.portfolio h2 {
+    text-align: center;
+}
+
+.portfolio hr {
+    float: center;
+}
+
+.portfolio a {
+    border: 1px black solid;
+}
+
 @media(max-width:767px) {
     .intro-message {
         padding-bottom: 15%;
