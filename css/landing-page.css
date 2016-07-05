@@ -85,6 +85,11 @@ h6 {
     }
 }
 
+.educationList li {
+    list-style: none;
+    margin-left: -40px;
+}
+
 .network-name {
     text-transform: uppercase;
     font-size: 14px;
