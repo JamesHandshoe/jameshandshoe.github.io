@@ -16,6 +16,8 @@
 
     <!-- Custom CSS -->
     <link href="css/landing-page.css" rel="stylesheet">
+    <!--Slide CSS-->
+    <link rel="stylesheet" type="text/css" href="demo-slideshow.css">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -207,7 +209,27 @@
                     <p class="lead">The following items are projects that I have built to hone my skills and develop solutions for clients.  
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <a href="http://codepen.io/jhandshoe/pen/rLmgrr" target="_blank"><img class="img-responsive" src="img/monthly-budget.png" alt=""></a>
+                    <!-- slideshow -->
+                 <div id="outside">
+    <!-- prev/next links -->
+                    <div class=center>
+                        <span id="prev">&lt;&lt;Prev </span>
+                        <span id="next"> Next&gt;&gt;</span>
+                    </div>
+                    <!-- slideshow -->
+                    <div class="cycle-slideshow" 
+                        data-cycle-fx=scrollHorz
+                        data-cycle-timeout=0
+                        data-cycle-prev="#prev"
+                        data-cycle-next="#next"
+                        >
+                        <a href="http://codepen.io/jhandshoe/pen/rLmgrr" target="_blank"><img class="img-responsive" src="img/monthly-budget.png" alt=""></a>
+                        <a href="http://codepen.io/jhandshoe/pen/rLmgrr" target="_blank"><img class="img-responsive" src="img/monthly-budget.png" alt=""></a>
+                        <a href="http://codepen.io/jhandshoe/pen/rLmgrr" target="_blank"><img class="img-responsive" src="img/monthly-budget.png" alt=""></a>
+                        <a href="http://codepen.io/jhandshoe/pen/rLmgrr" target="_blank"><img class="img-responsive" src="img/monthly-budget.png" alt=""></a>    
+                    </div>
+                </div>
+                    
                 </div>
             </div>
         </div>
@@ -284,7 +306,10 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
-
+    <!--cycle2-->
+    <script src="js/jquery.cycle2.min.js"></script>
+    <script src="js/jquery.cycle2.carousel.min.js"></script>
+    <script type="text/javascript" src="jquery.cycle.all.js"></script>
 </body>
 
 </html>
