@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Meditation App</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+</head>
+<body>
+	<h1>Meditation App</h1>
+	<h2>Search Scripture</h2>
+
+	<p>Enter a book of the Bible:      <input type="text" id="book"></p>
+	<p>Enter the chapter of the Bible: <input type="text" id="chapter"></p>
+	<p>Enter the verse or verses:      <input type="text" id="verse"></p>
+	<P>Select the version of the Bible prefered:</p>
+	<form>
+		<select id="bibleVersions">
+			<option value="aov">Afrikaans: Ou Vertaling</option>
+			<option value="albanian">Albanian: Albanian</option>
+			<option value="hsab">Amharic: Haile Selassie Amharic Bible</option>
+			<option value="arabicsv">Arabic: Smith and Van Dyke</option>
+			<option value="bulgarian1940">Bulgarian: Bulgarian Bible</option>
+			<option value="cnt">Chinese: NCV Traditional</option>
+			<option value="cus">Chinese: Union Simplified</option>
+			<option value="cns">Chinese: NCV Simplified</option>
+			<option value="cut">Chinese: Union Traditional</option>
+			<option value="croatia">Croatian: Croatian</option>
+			<option value="danish">Danish: Danish</option>
+			<option value="statenvertaling">Dutch: Dutch Staten Vertaling</option>
+			<option value="kjv">English: King James Version</option>
+			<option value="akjv">English: KJV Easy Read</option>
+			<option value="asv">English: American Standard Version</option>
+			<option value="amp">English: Amplified Version</option>
+			<option value="basicenglish">English: Basic English Bible</option>
+			<option value="darby">English: Darby</option>
+			<option value="nasb">English: New American Standard</option>
+			<option value="ylt">English: Young's Literal Translation</option>
+			<option value="web">English: World English Bible</option>
+			<option value="wb">English: Webster's Bible</option>
+			<option value="esperanto">Esperanto: Esperanto</option>
+			<option value="estonian">Estonian: Estonian</option>
+			<option value="finnish1776">Finnish: Finnish Bible</option>
+			<option value="martin">French: Martin</option>
+			<option value="luther1912">German: Luther</option>
+			<option value="moderngreek">Greek: Greek Modern</option>
+			<option value="text">Greek: Textus Receptus</option>
+			<option value="aleppo">Hebrew: Aleppo Codex</option>
+			<option value="karoli">Hungarian: Hungarian Karoli</option>
+			<option value="giovanni">Italian: Giovanni Diodati Bible</option>
+			<option value="korean">Korean: Korean</option>
+			<option value="bibelselskap">Norwegian: Bibelselskap</option>
+			<option value="almeida">Portuguese: Almeida Atualizada</option>
+			<option value="synodal">Russian: Synodal Translation</option>
+			<option value="valera">Spanish: Reina Valera</option>
+			<option value="swahili">Swahili: Swahili</option>
+			<option value="swedish">Swedish: Swedish</option>
+			<option value="turkish">Turkish: Turkish</option>
+			<option value="vietnamese">Vietnamese: Vietnamese</option>
+			<option value="xhosa">Xhosa: Xhosa</option>
+		</select>
+	</form>
+	<br>
+	<br>
+	<button id="find-scripture">Find Scripture</button>
+	<br>
+	<div id="reference"></div>
+	<div id="scripture"></div>
+<!--js files-->
+	<script src="js/app.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.min.js"></script>
+</body>
+</html>
