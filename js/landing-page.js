@@ -9,7 +9,7 @@ $(document).ready(function(){
  	});
 
  	$('#ajaxTutorial').click(function(){
- 		window.open("ajax tutorial/index.html");
+ 		window.open("http://ajax-tutorial.herokuapp.com/");
  	});
 
  	$('#meditationApp').click(function(){
