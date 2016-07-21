@@ -13,6 +13,6 @@ $(document).ready(function(){
  	});
 
  	$('#meditationApp').click(function(){
- 		window.open("meditation app/index.html");
+ 		window.open("https://meditate-app.herokuapp.com/");
  	});
 });
