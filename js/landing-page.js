@@ -15,4 +15,8 @@ $(document).ready(function(){
  	$('#meditationApp').click(function(){
  		window.open("https://meditate-app.herokuapp.com/");
  	});
+
+ 	$('#meanStack').click(function(){
+ 		window.open("http://mean-unmultipliable-armpit.mybluemix.net/");
+ 	});
 });
