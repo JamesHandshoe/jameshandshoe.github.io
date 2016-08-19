@@ -19,4 +19,9 @@ $(document).ready(function(){
  	$('#meanStack').click(function(){
  		window.open("http://mean-unmultipliable-armpit.mybluemix.net/");
  	});
+
+ 	$('#workoutlog').click(function(){
+ 		window.open("https://workoutweb-1150-jhandshoe.herokuapp.com/");
+ 	});
+ 	
 });
