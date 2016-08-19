@@ -185,3 +185,7 @@ footer {
 p.copyright {
     margin: 15px 0 0;
 }
+
+.portfolio-btn, #meditationApp, #monthlyBudget, #ajaxTutorial, #meanStack:hover {
+    cursor: pointer;
+}
