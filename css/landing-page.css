@@ -186,6 +186,6 @@ p.copyright {
     margin: 15px 0 0;
 }
 
-.portfolio-btn, #meditationApp, #workoutlog, #monthlyBudget, #ajaxTutorial, #meanStack:hover {
+.portfolio-btn, #meditationApp, #workoutlog, #monthlyBudget, #ajaxTutorial, #react, #windmill, #meanStack:hover {
     cursor: pointer;
 }

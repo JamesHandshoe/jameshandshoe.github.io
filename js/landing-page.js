@@ -23,5 +23,13 @@ $(document).ready(function(){
  	$('#workoutlog').click(function(){
  		window.open("https://workoutweb-1150-jhandshoe.herokuapp.com/");
  	});
+
+ 	$('#windmill').click(function(){
+ 		window.open("https://youtu.be/MU9KDO6K38o");
+ 	});
+
+ 	$('#react').click(function(){
+ 		window.open("http://reactyoutubesearch.herokuapp.com/");
+ 	});
  	
 });
